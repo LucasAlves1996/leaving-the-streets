@@ -1,0 +1,82 @@
+/* Formulário de Login */
+#formLogin, #formCadastro, #formVoluntario, #formDoacao{
+	width:50%;
+	border-style:solid;
+	border-width:5px;
+	border-color:rgb(13,13,13,.7);
+	border-radius:5px;
+	padding:0px 0px 55px 0px;
+	margin:100px auto 0px auto;
+}
+#formLogin h1, #formCadastro h1, #formVoluntario h1, #formDoacao h1{
+	margin:0px 0px 45px 0px;
+	background-color:rgba(13,13,13,.7);
+	color:rgb(255,255,255);
+	text-align:center;
+	padding:12px 0px 17px 0px;
+	font-size:30px;
+}
+#form{
+	margin:auto;
+	width:80%;
+	color:rgb(255,255,255);
+	font-weight:bold;
+}
+.form-fields{
+	width:100%;
+	padding:10px 0px 10px 0px;
+	margin:0px 0px 15px 0px;
+	border:none;
+	border-radius:3px;
+	font-size:15px;
+	outline:none;
+	box-shadow:0px 0.5px 1.5px 0px rgb(170,170,170);
+}
+.form-fields:focus{
+	box-shadow:0px 1px 3px 0px rgb(170,170,170);
+}
+.form-fields:hover{
+	box-shadow:0px 1px 3px 0px rgb(170,170,170);
+}
+#submit{
+	width:100%;
+	font-size:15px;
+	margin-top:30px;
+	padding:10px 0px 10px 0px;
+	color:rgb(255,255,255);
+	border-style:none;
+	border-radius:5px;
+	background-color:rgb(46,166,76);
+	cursor:pointer;
+	font-weight:bold;
+	outline:none;
+}
+#submit:hover{
+	background-color:rgb(42,156,72);
+}
+
+.bt-form {
+  font-size: 17px;
+  float: right;
+  padding: 3px 15px;
+}
+
+.bt-style {
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(46,166,76);
+  color: rgb(255,255,255);
+  cursor: pointer;
+  outline: none;
+}
+
+.bt-style:hover{
+  background-color:rgb(42,156,72);
+}
+
+@media (max-width: 767px) {
+	#formLogin, #formCadastro, #formVoluntario, #formDoacao{
+		width: 80%;
+	}
+}
